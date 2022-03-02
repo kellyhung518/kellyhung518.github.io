@@ -48,3 +48,29 @@
 .title {
     font-size: 24px;
 }
+
+.intro-block{
+    background-color: #F2E6E6;
+}
+
+.experience-block{
+    background-color:#F3F3FA;
+}
+
+.education-item .logo img {
+    width: 60px;
+    height: 60px;
+    margin-left: 120px;
+}
+
+.education-item {
+    display: flex;
+    align-items: center;
+}
+
+.education-item>ul li{
+    margin-right: 100px;
+    list-style: none;
+    padding: 0px;
+    display: inline;
+}
