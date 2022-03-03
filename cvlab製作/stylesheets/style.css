@@ -61,14 +61,13 @@
     width: 20%;
 }
 .education-item .logo img {
-    width: 70px;
-    height: 70px;
+    width: 100%;
 }
 
 .education-item {
     display: flex;
     align-items: center;
-    width: 33%;
+    width: 33.33333%;
 }
 
 .education-item ul li{
@@ -112,4 +111,35 @@
 
 .others-block>*{
     box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+
+    .education-item {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .avatar,
+    .avatar>img {
+        width: 100%;
+    }
+
+    .avatar {
+        max-width: 150px;
+    }
+
+    .intro-block>.row {
+        flex-direction: column;
+    }
+
+    .content{
+        width: 100%;
+    }
+
+    .education-item {
+        width: 50%;
+    }
 }
