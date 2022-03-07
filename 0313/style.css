@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+
+
+.container{
+    font-family: 'Noto Sans TC', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+
+h1{
+    color: #42115A;
+}
+
+.location-item ul li{
+    list-style: none;
+    padding: 3px 0;
+    color: #65785E;
+}
+
+h2{
+    color: 	#613030;
+}
+
+.time-item ul li{
+    list-style: none;
+    padding: 3px 0;
+    color: #65785E;
+}
+
+
+.money-item ul li{
+    list-style: none;
+    padding: 3px 0;
+    color: #65785E;
+}
+
+
+.food-item ul li{
+    list-style: none;
+    padding: 3px 0;
+    color: #65785E;
+}
